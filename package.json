@@ -43,12 +43,5 @@
     "@types/react-native": "^0.62.2",
     "react-native-typescript-transformer": "^1.2.13",
     "typescript": "^3.7.4"
-  },
-  "dependencies": {
-    "react": "16.9.0",
-    "react-native": "0.61.5",
-    "@freakycoder/react-native-helpers": "^0.1.2",
-    "@expo/vector-icons": "Kaushald4/vector-icons#master",
-    "react-native-dynamic-vector-icons": "WrathChaos/react-native-dynamic-vector-icons#expo"
   }
 }
