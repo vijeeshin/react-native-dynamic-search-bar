@@ -35,7 +35,6 @@
   "peerDependencies": {
     "react": ">= 16.x.x",
     "react-native": ">= 0.55.x",
-    "react-native-vector-icons": ">= 6.x.x",
     "react-native-dynamic-vector-icons": ">= x.x.x",
     "@freakycoder/react-native-helpers": ">= 0.1.0"
   },
@@ -48,8 +47,8 @@
   "dependencies": {
     "react": "16.9.0",
     "react-native": "0.61.5",
-    "react-native-vector-icons": ">= 6.x.x",
     "@freakycoder/react-native-helpers": "^0.1.2",
-    "react-native-dynamic-vector-icons": "^0.2.2"
+    "@expo/vector-icons": "Kaushald4/vector-icons#master",
+    "react-native-dynamic-vector-icons": "WrathChaos/react-native-dynamic-vector-icons#expo"
   }
 }
