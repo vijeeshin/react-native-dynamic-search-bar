@@ -1,6 +1,5 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
-// import SearchBar from "./build/dist/SearchBar";
 import SearchBar from "react-native-dynamic-search-bar";
 
 export default function App() {
