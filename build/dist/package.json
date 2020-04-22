@@ -47,6 +47,7 @@
   "dependencies": {
     "react": "16.9.0",
     "react-native": "0.61.5",
+    "react-native-vector-icons": ">= 6.x.x",
     "@freakycoder/react-native-helpers": "^0.1.2",
     "@expo/vector-icons": "Kaushald4/vector-icons#master",
     "react-native-dynamic-vector-icons": "WrathChaos/react-native-dynamic-vector-icons#expo"
