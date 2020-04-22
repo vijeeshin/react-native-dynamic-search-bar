@@ -3,14 +3,6 @@
 .DS_Store
 
 package-lock.json
-# Node Modules
-**/node_modules
-node_modules
-# Example 
-example
-# Assets
-Assets
-assets
 
 node_modules
 
