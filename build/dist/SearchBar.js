@@ -17,15 +17,15 @@ class SearchBar extends React.Component {
         this.textInput = null;
     }
     render() {
-        const { onPress, fontSize, iconName, iconType, iconSize, iconColor, fontColor, autoFocus, shadowColor, placeholder, onPressCancel, iconComponent, noExtraMargin, onPressToFocus, textInputValue, cancelIconName, cancelIconType, cancelIconSize, cancelIconColor, cancelComponent, textInputDisable, textInputComponent, cancelIconComponent, cancelButtonDisable, } = this.props;
-        return (<react_native_1.TouchableOpacity onPress={() => {
-            onPressToFocus ? textInputRef.focus() : onPress();
-        }} style={[
+        const { onPress, fontSize, iconName, iconType, iconSize, iconColor, fontColor, autoFocus, shadowColor, placeholder, shadowStyle, onPressCancel, iconComponent, noExtraMargin, onPressToFocus, textInputValue, cancelIconName, cancelIconType, cancelIconSize, cancelIconColor, cancelComponent, textInputDisable, textInputComponent, cancelIconComponent, cancelButtonDisable, } = this.props;
+        return (<react_native_1.TouchableOpacity style={[
             SearchBar_style_1.default.center,
             SearchBar_style_1.container(this.props),
             SearchBar_style_1.ifIPhoneXHeader(noExtraMargin),
-            SearchBar_style_1._shadowStyle(shadowColor),
-        ]}>
+            shadowStyle || SearchBar_style_1._shadowStyle(shadowColor),
+        ]} onPress={() => {
+            onPressToFocus ? textInputRef.focus() : onPress();
+        }}>
         <react_native_1.View style={SearchBar_style_1.default.containerGlue}>
           <react_native_1.View style={SearchBar_style_1.default.searchStyle}>
             <SearchIcon_1.default iconName={iconName} iconType={iconType} iconSize={iconSize} iconColor={iconColor} iconComponent={iconComponent}/>

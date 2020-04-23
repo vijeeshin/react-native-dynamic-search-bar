@@ -117,8 +117,8 @@
         "signature": "02b1272c4450722c611466f0daa5d00e73ca141435b9f5e6067598a915d7d1c8"
       },
       "../../lib/searchbar.tsx": {
-        "version": "da8e2d2bc1b9c8dd860835b5b58f255af9cfba7865df9851e5494831596e293d",
-        "signature": "bbf973baa6e815768db1e52731da0bc4c0b0cde30de75a08f8812eb25a8f7c58"
+        "version": "44f1c3f8c6f883244f7c1b47bc7166fa2c9ecccf21571c3d502d2f7592cd6038",
+        "signature": "c6b9f31b68a35bd540b7d95016d9831ec0f5e454995bd5562f6624e3c26b1ac2"
       },
       "../../node_modules/@types/color-name/index.d.ts": {
         "version": "f0cb4b3ab88193e3e51e9e2622e4c375955003f1f81239d72c5b7a95415dad3e",
