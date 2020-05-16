@@ -76,7 +76,7 @@ export default StyleSheet.create<Style>({
   containerGlue: {
     flex: 1,
     flexDirection: "row",
-    justifyContent: "space-between"
+    justifyContent: "space-between",
     borderWidth:1,
     borderColor:"#20BEC6"
   },
