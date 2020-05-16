@@ -60,7 +60,7 @@ export function _shadowStyle(shadowColor: string = "#757575") {
         shadowOpacity: 0.3,
         shadowOffset: { width: 2, height: 1 }
       },
-      android: { elevation: 5 }
+      android: { elevation: 0 }
     })
   };
 }
@@ -77,6 +77,8 @@ export default StyleSheet.create<Style>({
     flex: 1,
     flexDirection: "row",
     justifyContent: "space-between"
+    borderWidth:1,
+    borderColor:"#20BEC6"
   },
   searchStyle: {
     top: 2,
