@@ -13,7 +13,7 @@ interface Style {
 
 export function container(props: any) {
   const {
-    height = 35,
+    height = 45,
     width = ScreenWidth * 0.93,
     backgroundColor = "#fff",
     borderRadius = 10
