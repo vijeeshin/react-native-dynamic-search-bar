@@ -78,7 +78,8 @@ export default StyleSheet.create<Style>({
     flexDirection: "row",
     justifyContent: "space-between",
     borderWidth:1,
-    borderColor:"#20BEC6"
+    borderColor:"#20BEC6",
+    padding:10
   },
   searchStyle: {
     top: 2,
