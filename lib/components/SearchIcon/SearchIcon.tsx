@@ -21,7 +21,7 @@ export default class SearchIcon extends React.PureComponent<IProps, IState> {
     iconName: "search",
     iconType: "Octicons",
     iconSize: 20,
-    iconColor: "#807DE7",
+    iconColor: "#6D6E71",
   };
 
   render() {
