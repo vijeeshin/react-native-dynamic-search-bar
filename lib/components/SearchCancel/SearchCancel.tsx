@@ -24,7 +24,7 @@ export default class SearchCancel extends React.PureComponent<IProps, IState> {
     cancelIconName: "clear",
     cancelIconType: "MaterialIcons",
     cancelIconSize: 23,
-    cancelIconColor: "#b3b6c3",
+    cancelIconColor: "#6D6E71",
   };
 
   renderIcon(props) {
