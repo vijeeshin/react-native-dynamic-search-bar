@@ -99,3 +99,4 @@ export default StyleSheet.create<Style>({
     alignContent: "center"
   }
 });
+ 
