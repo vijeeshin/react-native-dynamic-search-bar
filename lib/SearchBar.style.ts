@@ -13,7 +13,7 @@ interface Style {
 
 export function container(props: any) {
   const {
-    height = 55,
+    height = 50,
     width = ScreenWidth ,
     backgroundColor = "#20BEC6",
     borderRadius = 0
@@ -26,7 +26,6 @@ export function container(props: any) {
     backgroundColor,
     paddingLeft: 8,
     paddingRight: 8,
-    paddingTop:8,
     paddingBottom:8,
   };
 }
@@ -82,7 +81,7 @@ export default StyleSheet.create<Style>({
     borderWidth:1,
     borderColor:"#20BEC6",
     backgroundColor:"#FFF",
-    padding:5
+    padding:3
   },
   searchStyle: {
     top: 2,
@@ -99,4 +98,3 @@ export default StyleSheet.create<Style>({
     alignContent: "center"
   }
 });
- 
