@@ -13,10 +13,10 @@ interface Style {
 
 export function container(props: any) {
   const {
-    height = 45,
-    width = ScreenWidth * 0.93,
-    backgroundColor = "#fff",
-    borderRadius = 10
+    height = 55,
+    width = ScreenWidth ,
+    backgroundColor = "#20BEC6",
+    borderRadius = 0
   } = props;
 
   return {
@@ -25,7 +25,9 @@ export function container(props: any) {
     borderRadius,
     backgroundColor,
     paddingLeft: 8,
-    paddingRight: 8
+    paddingRight: 8,
+    paddingTop:8,
+    paddingBottom:8,
   };
 }
 
@@ -79,7 +81,8 @@ export default StyleSheet.create<Style>({
     justifyContent: "space-between",
     borderWidth:1,
     borderColor:"#20BEC6",
-    padding:10
+    backgroundColor:"#FFF",
+    padding:5
   },
   searchStyle: {
     top: 2,
