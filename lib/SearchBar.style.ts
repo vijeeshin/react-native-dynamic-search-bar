@@ -68,9 +68,9 @@ export function _shadowStyle(shadowColor: string = "#757575") {
 }
 
 export function ifIPhoneXHeader(noExtraMargin: boolean) {
-  if (noExtraMargin) return { marginTop: 16 };
+  if (noExtraMargin) return { marginTop: 0 };
   return {
-    marginTop: isIPhoneXFamily() ? 44 : 16
+    marginTop: isIPhoneXFamily() ? 44 : 0
   };
 }
 
